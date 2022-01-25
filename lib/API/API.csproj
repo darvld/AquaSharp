@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net46</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>AquaSharp</RootNamespace>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+</Project>

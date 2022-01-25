@@ -1,0 +1,8 @@
+# IDE configuration files
+.idea/
+_ReSharper.Caches/
+riderModule.iml
+
+bin/
+obj/
+/packages/
