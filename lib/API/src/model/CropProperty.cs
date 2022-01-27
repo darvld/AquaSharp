@@ -1,4 +1,3 @@
-﻿namespace AquaSharp
-{
+﻿namespace AquaSharp {
     public class CropProperty<T> { }
 }
