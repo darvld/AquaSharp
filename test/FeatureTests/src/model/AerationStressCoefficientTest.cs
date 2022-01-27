@@ -17,8 +17,8 @@ namespace AquaSharp.test {
                 actualWaterContent,
                 contentAtStressThreshold,
                 contentAtSaturation,
-                stuntThresholdDays,
                 refAerationDays,
+                stuntThresholdDays,
                 // secondary output (AerDays)
                 out var finalAerationDays
             );

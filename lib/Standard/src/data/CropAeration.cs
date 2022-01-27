@@ -6,5 +6,8 @@
          * to the <c>Crop.LagAer</c> field in the original implementation.</summary>
          */
         public static readonly PropertyKey<double> AerationStuntThreshold = new();
+        
+        /**<summary>Aeration stress coefficient for a specific crop in the current simulation.</summary>*/
+        public static readonly PropertyKey<double> AerationStressCoefficient = new();
     }
 }

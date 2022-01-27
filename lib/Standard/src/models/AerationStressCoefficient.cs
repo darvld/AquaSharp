@@ -29,8 +29,8 @@ namespace AquaSharp.features {
             double actualWaterContent,
             double contentAtStressThreshold,
             double contentAtSaturation,
-            double stuntThresholdDays,
             double refAerationDays,
+            double stuntThresholdDays,
             out double finalAerationDays
         ) {
             if (actualWaterContent <= contentAtStressThreshold) {
