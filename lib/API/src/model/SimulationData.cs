@@ -2,5 +2,7 @@
     /**
      * <summary>Contains all necessary input data to set up a <see cref="Simulation">simulation</see>.</summary>
      */
-    public class SimulationData { }
+    public class SimulationData {
+        public readonly Properties environment = new();
+    }
 }
