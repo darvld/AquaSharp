@@ -8,11 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\API\API.csproj"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <Folder Include="src"/>
+        <ProjectReference Include="..\API\API.csproj" />
     </ItemGroup>
 
 </Project>

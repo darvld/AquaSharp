@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard", "lib\Standard\St
 		{CA0B8C1D-59A1-4B1B-AD01-F2AB6F21A898} = {CA0B8C1D-59A1-4B1B-AD01-F2AB6F21A898}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureTests", "test\FeatureTests\FeatureTests.csproj", "{62751BAC-5CDA-47EF-BFA3-37B3B376BFBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AAC68271-B4F7-48A7-BF0F-74B974673707} = {AAC68271-B4F7-48A7-BF0F-74B974673707}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +26,9 @@ Global
 		{AAC68271-B4F7-48A7-BF0F-74B974673707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC68271-B4F7-48A7-BF0F-74B974673707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC68271-B4F7-48A7-BF0F-74B974673707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62751BAC-5CDA-47EF-BFA3-37B3B376BFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62751BAC-5CDA-47EF-BFA3-37B3B376BFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62751BAC-5CDA-47EF-BFA3-37B3B376BFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62751BAC-5CDA-47EF-BFA3-37B3B376BFBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
