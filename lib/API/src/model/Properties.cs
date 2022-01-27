@@ -12,14 +12,14 @@ namespace AquaSharp {
          * <summary>Returns the value associated with the given <c>key</c>, or <c>null</c> if the
          * property has not been set.</summary>
          */
-        public T? getProperty<T>(PropertyKey<T> key) where T : class {
-            return properties[key] as T;
+        public T? getProperty<T>(PropertyKey<T> key) {
+            return (T) properties[key];
         }
 
         /**
          * <summary>Sets the <c>value</c> associated with the given <c>key</c>.</summary>
          */
-        public void setProperty<T>(PropertyKey<T> key, T? value) where T : class {
+        public void setProperty<T>(PropertyKey<T> key, T? value) {
             properties[key] = value;
         }
     }
