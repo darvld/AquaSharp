@@ -10,10 +10,6 @@
          * <summary>Initializes and returns a new <see cref="CropSimulation">simulation</see> with the provided
          * input parameters.</summary>
          */
-        public CropSimulation simulate(
-            CropData cropData,
-            SimulationData simulationData,
-            SimulationFeature[] features
-        );
+        public CropSimulation simulate(CropData cropData, SimulationData simulationData);
     }
 }
