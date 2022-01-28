@@ -23,8 +23,6 @@ namespace AquaSharp.features {
             ref double waterContent,
             List<SoilLayer> compartmentLayers
         ) {
-            // TODO: when calling, make sure this is the first day of the simulation and irrigation method is not set to NetCalculation.
-
             // Determine compartments covered by the root zone
             var rootDepth = Math.Max(rootZoneDepth, cropMinRootDepth);
             rootDepth = Math.Round(rootDepth * 100, MidpointRounding.AwayFromZero) / 100;
@@ -36,8 +34,8 @@ namespace AquaSharp.features {
             for (var i = 0; i <= coveredCompartments; i++) {
                 var currentLayer = compartmentLayers[i];
 
-                var wiltingPointWater = SoilHydrology.WaterContentAtWilting.from(currentLayer.properties);
-                var fieldCapacityWater = SoilHydrology.WaterContentAtCapacity.from(currentLayer.properties);
+                var wiltingPointWater = SoilHydrology.WaterContentAtWilting.of(currentLayer.properties);
+                var fieldCapacityWater = SoilHydrology.WaterContentAtCapacity.of(currentLayer.properties);
 
                 var threshold = wiltingPointWater +
                                 netIrrigationFactor / 100 * (fieldCapacityWater - wiltingPointWater);
